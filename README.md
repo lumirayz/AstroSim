@@ -27,6 +27,15 @@ Tools
 Attractor - attract and repel objects, use left and right mouse buttons to attract and repel, respectively
 Spawner - spawn comets
 
+Class.lua
+---------
+A python-inspired lua class library, doesn't have the more advanced concepts, though.
+
+Util.lua
+--------
+Includes a few helper classes like Color, Vector2f and List.
+Also has a few helper functions like gfx.drawCircle and gfx.drawLine which use love's drawing functions with vectors and cursor.getPosition to get the cursor's position as a vector.
+
 License
 -------
 This project is MIT licensed, refer to COPYING for more information.
